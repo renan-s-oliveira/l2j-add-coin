@@ -21,4 +21,5 @@ class Account extends Authenticatable
     protected $fillable = [
         'login',
     ];
+
 }
