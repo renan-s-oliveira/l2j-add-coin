@@ -15,6 +15,7 @@ class L2JAddCoinServiceProvider extends ServiceProvider
     {
         
     }
+    
     public function boot()
     {
         $this->publishes([
