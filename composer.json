@@ -20,10 +20,7 @@
         "laravel": {
             "providers":[
                 "L2JAddCoin\\Providers\\L2JAddCoinServiceProvider"
-            ],
-            "aliases": {
-                "Coin": "L2JAddCoin\\Facades\\Coin"
-            }
+            ]
         }
     }
 }
