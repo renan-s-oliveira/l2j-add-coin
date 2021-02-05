@@ -19,7 +19,7 @@
     "extra": {
         "laravel": {
             "providers":[
-                "L2JAddCoin\\ServiceProvider\\L2JAddCoinServiceProvider"
+                "L2JAddCoin\\Providers\\L2JAddCoinServiceProvider"
             ]
         }
     }
