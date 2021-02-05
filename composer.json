@@ -1,0 +1,14 @@
+{
+    "name": "renan-s-oliveira/l2j-add-coin",
+    "description": "package add donate coins l2j",
+    "type": "package",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Renan de Souza Oliveira",
+            "email": "renanoliveiradev@gmail.com"
+        }
+    ],
+    "minimum-stability": "dev",
+    "require": {}
+}
