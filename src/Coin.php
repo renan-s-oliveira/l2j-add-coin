@@ -1,6 +1,6 @@
 <?php
 
-namespace L2JAddCoin\Facades;
+namespace L2JAddCoin;
 
 use Illuminate\Support\Facades\Facade;
 use Illuminate\Support\Str;
