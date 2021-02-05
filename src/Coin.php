@@ -2,13 +2,16 @@
 
 namespace L2JAddCoin;
 
-use Illuminate\Support\Facades\Facade;
 use Illuminate\Support\Str;
+use L2JAddCoin\Models\Account;
+use Illuminate\Support\Facades\Facade;
+use Illuminate\Database\Eloquent\Model;
 
-class Coin extends Model {
+class Coin extends Model
+{
 
-    protected static function add($id, $idChar) { 
-        return App\Models\Str::studly(config('l2jcoin.model')); 
+    public static function add($id, $idChar) { 
+        return Account::all(); 
     }
 
 }
