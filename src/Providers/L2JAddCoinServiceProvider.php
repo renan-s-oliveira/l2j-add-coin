@@ -18,8 +18,6 @@ class L2JAddCoinServiceProvider extends ServiceProvider
 
     public function boot()
     {
-        $this->publishes([
-            __DIR__.'/../config/l2jcoin.php' => config_path('l2jcoin.php'),
-        ]);
+
     }    
 }
