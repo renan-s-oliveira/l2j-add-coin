@@ -7,14 +7,10 @@ use L2JFacility\Models\Item;
 use Illuminate\Support\Facades\Facade;
 use Illuminate\Database\Eloquent\Model;
 
-class Coin extends Model
+class Coin
 {
     public static function add($idChar, $count, $loc = 'WAREHOUSE') 
     { 
         return Item::create(['owner_id' => $idChar, 'item_id' => config('l2jfacility.coin_id'), 'count' => $count, 'object_id' => ObjectId::create() + 1000, 'loc' => $loc]);
-    }
-    public static function char() 
-    { 
-        return Character::where('name', '=', 'Renan');
     }
 }
