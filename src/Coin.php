@@ -4,8 +4,6 @@ namespace L2JAddCoin;
 
 use L2JAddCoin\ObjectId;
 use L2JFacility\Models\Item;
-use Illuminate\Support\Facades\Facade;
-use Illuminate\Database\Eloquent\Model;
 
 class Coin
 {

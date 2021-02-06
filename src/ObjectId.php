@@ -4,9 +4,8 @@ namespace L2JAddCoin;
 
 use L2JAddCoin\Models\Item;
 use Illuminate\Support\Facades\Facade;
-use Illuminate\Database\Eloquent\Model;
 
-class ObejectId extends Model
+class ObejectId
 {
     public static function create() :int
     { 
