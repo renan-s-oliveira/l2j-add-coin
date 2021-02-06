@@ -7,7 +7,7 @@ use Illuminate\Support\Facades\Facade;
 
 class ObjectId
 {
-    public static function create() :int
+    public static function create()
     { 
         return Item::max('object_id');
     }
